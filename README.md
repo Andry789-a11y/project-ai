@@ -6,10 +6,10 @@ DryyMate AI adalah AI berbasis **Laravel** dengan integrasi **AI Gemini** yang m
 - Chat interaktif seperti ChatGPT.
 
 ## 🚀 Fitur Utama
-- **Upload PDF** → AI otomatis membaca dan meringkas isi dokumen.
-- **Ringkasan dengan Suara** → Hasil ringkasan dibacakan secara otomatis.
-- **Chat AI** → Bisa tanya jawab seputar dokumen atau topik lain.
-- **Dark Mode UI** → Tampilan modern dan nyaman digunakan.
+- **Upload PDF** → AI membaca dan meringkas isi dokumen.
+- **Ringkasan dengan Suara** → Hasil ringkasan dibacakan menggunakan gTTS Python.
+- **Chat AI** → Bisa tanya jawab seputar dokumen atau topik lain walau belum akurat.
+- **Dark Mode UI** → Tampilan modern sesuai dengan zaman:v
 
 ## 📂 Struktur Project
 dryymate/
@@ -40,4 +40,5 @@ dryymate/
   - php artisan key:generate
 
 5. Jalankan Server :
+  - python python/tts_api.py
   - php artisan serve
